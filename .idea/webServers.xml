@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1a042b1f-8433-4f53-8f55-dea2f0f9b9b0" name="blog" url="localhost/wblog">
+        <fileTransfer rootFolder="/public_html/wblog" accessType="FTPS" host="sbastola.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
