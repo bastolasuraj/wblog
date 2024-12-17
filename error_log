@@ -1,0 +1,12 @@
+[11-Dec-2024 17:00:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: 3 arguments are required, 2 given in /home/sbastola/public_html/wblog/wp-content/themes/sbastola/footer.php:30
+Stack trace:
+#0 /home/sbastola/public_html/wblog/wp-content/themes/sbastola/footer.php(30): printf()
+#1 /home/sbastola/public_html/wblog/wp-includes/template.php(810): require_once('/home/sbastola/...')
+#2 /home/sbastola/public_html/wblog/wp-includes/template.php(745): load_template()
+#3 /home/sbastola/public_html/wblog/wp-includes/general-template.php(92): locate_template()
+#4 /home/sbastola/public_html/wblog/wp-content/themes/sbastola/templates/homepage.php(91): get_footer()
+#5 /home/sbastola/public_html/wblog/wp-includes/template-loader.php(106): include('/home/sbastola/...')
+#6 /home/sbastola/public_html/wblog/wp-blog-header.php(19): require_once('/home/sbastola/...')
+#7 /home/sbastola/public_html/wblog/index.php(17): require('/home/sbastola/...')
+#8 {main}
+  thrown in /home/sbastola/public_html/wblog/wp-content/themes/sbastola/footer.php on line 30
